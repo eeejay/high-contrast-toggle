@@ -1,0 +1,1 @@
+A web extension for toggling high contrast mode quickly
