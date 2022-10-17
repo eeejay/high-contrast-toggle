@@ -1,0 +1,36 @@
+{
+	"manifest_version": 2,
+	"name": "High Contrast Toggle",
+	"description": "A quick toggle button for browser high contrast mode",
+	"developer": {
+		"name": "Eitan Isaacson",
+		"url": "https://blog.monotonous.org"
+	},
+
+	"version": "0.0.1",
+	"icons": {
+		"64": "icons/icon.svg"
+	},
+	"permissions": [
+    "browserSettings"
+  ],
+	"background": {
+		"scripts": [
+			"background_script.js"
+		]
+	},
+	"browser_action": {
+		"default_icon": "icons/icon.svg",
+		"default_title": "High Contrast Toggle",
+		"theme_icons": [
+			{
+				"light": "icons/icon_dark.svg",
+				"dark": "icons/icon.svg",
+				"size": 16
+			},{
+			"light": "icons/icon_dark.svg",
+			"dark": "icons/icon.svg",
+			"size": 32
+		}]
+	}
+}

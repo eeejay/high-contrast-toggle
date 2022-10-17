@@ -1,0 +1,21 @@
+<svg width="368" height="356" xmlns="http://www.w3.org/2000/svg">
+    <style>
+        circle {
+            fill:none;
+            stroke:#000;
+            stroke-width:30;
+        }
+        path {
+            fill-opacity:1;
+            stroke:none;
+        }
+    </style>
+    <g transform="translate(-72 -77)">
+        <path style="fill:#00f;" d="m261.96 396.56 33.155-38.32 8.551-52.053-44.968 5.13-50.59-3.903 9.465 54.089z"/>
+        <path style="fill:#0f0;" d="m364.555 207.168-48.82-13.572-50.707 14.542 23.877 38.45 18.116 47.395 44.84-31.697z"/>
+        <path style="fill:red;" d="m148.706 211.103 48.82-13.572 50.707 14.541-23.876 38.45-18.117 47.395-44.839-31.696z"/>
+        <circle cx="197" cy="308" r="110"/>
+        <circle cx="315" cy="308" r="110"/>
+        <circle cx="256" cy="202" r="110"/>
+    </g>
+</svg>
