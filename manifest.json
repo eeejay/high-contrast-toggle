@@ -12,7 +12,9 @@
 		"64": "icons/icon.svg"
 	},
 	"permissions": [
-    "browserSettings"
+    "browserSettings",
+		"<all_urls>",
+		"tabs"
   ],
 	"background": {
 		"scripts": [
